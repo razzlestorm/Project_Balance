@@ -39,6 +39,3 @@ parsed = [newspaper.Article(ii).download() for ii in feed]
 #timefeed = feed.sort(key=lambda art:art.article.publish_date)
 
 print(parsed)
-
-
-
